@@ -1,10 +1,10 @@
 # JPN225 15m OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-12_523_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-368_538_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full JPN225 dataset on ork.ad**](https://ork.ad/)
 
-**JPN225 15m OHLCV Stock index historical data** — ultra high-quality 15m OHLCV for **Japan 225 (Nikkei)**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**JPN225 15m OHLCV Stock index historical data** — ultra high-quality 15m OHLCV for **Nikkei 225**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,14 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 15m OHLCV** for **Japan 225 (Nikkei)** (Stock index)
+- **Ultra high-quality 15m OHLCV** for **Nikkei 225** (Stock index)
 - **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`15m`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **12,523** `15m` rows in the full archive
+- **Free evaluation sample** on GitHub (`15m`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **368,538** `15m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `15m` sample updated in sync
 
-> **Sample on GitHub** · `JPN225_15m.csv` (11,755 rows, `2026-01-04` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **12,523** `15m` rows (~0.79 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2025-12-18` → `2026-07-02`.
+> **Sample on GitHub** · `JPN225_15m.csv` (11,830 rows, `2026-01-04` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **368,538** `15m` rows (~20.88 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2008-09-01` → `2026-07-03`.
 
 ## Download sample
 
@@ -42,11 +42,11 @@ Interactive chart & stats: **[https://ork-ad.github.io/jpn225-15m-ohlcv-index-hi
 
 | | **Sample (this repo)** | **Full dataset ([ork.ad](https://ork.ad/))** |
 |---|--:|---|
-| Instrument | Japan 225 (Nikkei) · Stock index | Japan 225 (Nikkei) · Stock index |
+| Instrument | Nikkei 225 · Stock index | Nikkei 225 · Stock index |
 | Timeframes | `15m` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 15m rows | 11,755 | **12,523** |
-| Size | 0.74 MB | ~0.79 MB |
-| Period | `2026-01-04` → `2026-07-02` | `2025-12-18` → `2026-07-02` |
+| 15m rows | 11,830 | **368,538** |
+| Size | 0.7 MB | ~20.88 MB |
+| Period | `2026-01-04` → `2026-07-03` | `2008-09-01` → `2026-07-03` |
 | File | `JPN225_15m.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`JPN225_15m.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-01-04T23:00:00Z | 51136.951 | 51297.443 | 51037.45 | 51079.441 | 224.0 |
-| 2026-01-04T23:15:00Z | 51079.441 | 51119.431 | 51056.951 | 51076.931 | 123.0 |
-| 2026-01-04T23:30:00Z | 51076.931 | 51086.931 | 50827.428 | 50856.949 | 331.0 |
-| 2026-01-04T23:45:00Z | 50856.949 | 51291.953 | 50841.938 | 51256.943 | 1172.0 |
-| 2026-01-05T00:00:00Z | 51256.943 | 51661.967 | 51256.943 | 51482.435 | 2333.0 |
+| 2026-01-04T23:00:00Z | 51141.04 | 51301.55 | 51041.53 | 51083.53 | 224.0 |
+| 2026-01-04T23:15:00Z | 51083.53 | 51123.52 | 51061.04 | 51081.02 | 127.0 |
+| 2026-01-04T23:30:00Z | 51081.02 | 51091.02 | 50831.49 | 50856.52 | 332.0 |
+| 2026-01-04T23:45:00Z | 50856.52 | 51296.06 | 50841.5 | 51256.06 | 1173.0 |
+| 2026-01-05T00:00:00Z | 51256.06 | 51666.1 | 51256.06 | 51486.56 | 2334.0 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-02T20:00:00Z | 68310.37 | 68310.39 | 68185.87 | 68265.37 | 796.0 |
-| 2026-07-02T20:15:00Z | 68265.37 | 68315.39 | 68240.87 | 68275.37 | 222.0 |
-| 2026-07-02T20:30:00Z | 68275.37 | 68317.89 | 68245.87 | 68262.88 | 360.0 |
-| 2026-07-02T20:45:00Z | 68262.88 | 68330.39 | 68250.87 | 68325.39 | 386.0 |
+| 2026-07-03T15:45:00Z | 69822.7 | 69845.17 | 69785.17 | 69792.67 | 207.0 |
+| 2026-07-03T16:00:00Z | 69792.67 | 69822.66 | 69760.17 | 69810.17 | 150.0 |
+| 2026-07-03T16:15:00Z | 69810.17 | 69840.17 | 69802.66 | 69805.17 | 159.0 |
+| 2026-07-03T16:30:00Z | 69805.17 | 69862.68 | 69795.2 | 69850.17 | 149.0 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **JPN225** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **12,523** rows at `15m`, plus all other timeframes in the same ZIP.
+The complete **JPN225** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **368,538** rows at `15m`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full JPN225 dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · JPN225 15m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · JPN225 15m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
